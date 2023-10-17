@@ -1,17 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <title>Login Page | FeelsIA</title>
 </head>
+
 <body>
 
-    <div id="container">
-        <h1>FeelsIA</h1>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Créer un compte</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>ou utiliser votre e-mail pour vous inscrire.</span>
+                <input type="text" placeholder="Prénom">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Mot de passe">
+                <button>S'enregistrer</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Se connecter</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>ou utilisez vos identifiants si vous êtes déjà inscrit.</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Mot de passe">
+                <a href="#">Vous avez oublié votre mot de passe ?</a>
+                <button>Se connecter</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Vous revoilà !</h1>
+                    <p>Identifiez-vous et utilisez FeelsIA</p>
+                    <button class="hidden" id="login">Se connecter</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Bienvenue sur FeelsIA !</h1>
+                    <p>Enregistrez-vous et profitez pleinement des services de FeelsIA</p>
+                    <button class="hidden" id="register">Se créer un compte</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
