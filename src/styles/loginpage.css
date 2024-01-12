@@ -1,0 +1,44 @@
+/* LoginPage.css */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Utilisez la hauteur de la fenêtre pour centrer le formulaire */
+    background-color: #f4f4f4; /* Couleur de fond, à ajuster selon votre palette */
+  }
+  
+  .login-form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* Assurez-vous que padding et border ne débordent pas */
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5c67a3; /* Choisissez une couleur qui convient à votre thème */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #4b548f; /* Légèrement plus foncé au survol */
+  }
+  

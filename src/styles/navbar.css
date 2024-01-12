@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+  }
+  
+  .nav-logo {
+    font-size: 24px;
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Exemple de styles pour EmojiSearch */
+.emoji-search button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .emoji-search button:hover {
+    opacity: 0.7;
+  }
+  
